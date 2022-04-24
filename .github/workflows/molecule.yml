@@ -44,7 +44,7 @@ jobs:
             tag: "latest"
           - image: "debian-systemd"
             tag: "bookworm"
-          - image: "opensuse"
+          - image: "docker-opensuse-systemd"
             tag: "latest"
           - image: "docker-ubuntu-systemd"
             tag: "latest"
