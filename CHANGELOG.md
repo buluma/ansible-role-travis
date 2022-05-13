@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-travis/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-travis/compare/v0.1.1...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-travis/compare/v0.1.2...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 4.0.6 to 4.0.7 [\#3](https://github.com/buluma/ansible-role-travis/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v0.1.2](https://github.com/buluma/ansible-role-travis/tree/v0.1.2) (2022-04-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-travis/compare/v0.1.1...v0.1.2)
 
 **Closed issues:**
 
