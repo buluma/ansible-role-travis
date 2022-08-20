@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-travis/tree/HEAD)
+## [v0.1.3](https://github.com/buluma/ansible-role-travis/tree/v0.1.3) (2022-05-13)
 
-[Full Changelog](https://github.com/buluma/ansible-role-travis/compare/v0.1.2...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-travis/compare/v0.1.2...v0.1.3)
 
 **Merged pull requests:**
 
