@@ -3,8 +3,34 @@
   hosts: all
   gather_facts: no
   become: yes
+  vars:
+    ruby_download_url: http://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0.tar.gz
+    ruby_version: 3.0.0
+    ruby_install_gems_user: root
+    ruby_install_gems:
+      - json
+    ruby_gems_bin_path: /root/.gem/ruby/bin
+
+  pre_tasks:
+    - name: update apt cache.
+      apt: update_cache=true cache_valid_time=600
+      when: ansible_os_family == 'Debian'
+
+    - name: add rubygems bin dir to system-wide $PATH.
+      ansible.builtin.copy:
+        dest: /etc/profile.d/ruby.sh
+        content: 'PATH=$PATH:{{ ruby_gems_bin_path }}'
+        mode: 0644
+
+    - name: don't install Bundler on CentOS 7 because of old Ruby version.
+      ansible.builtin.set_fact:
+        ruby_install_bundler: false
+      when:
+        - ansible_os_family == 'RedHat'
+        - ansible_distribution_major_version == '7'
 
   roles:
     - role: buluma.bootstrap
     - role: buluma.buildtools
-    - role: buluma.ruby
+    # - role: buluma.ruby
+    - role: buluma.ruby_gems
