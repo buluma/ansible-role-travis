@@ -1,7 +1,7 @@
 ---
 - name: Prepare
   hosts: all
-  gather_facts: no
+  gather_facts: yes
   become: yes
   vars:
     ruby_download_url: http://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0.tar.gz
@@ -12,10 +12,6 @@
     ruby_gems_bin_path: /root/.gem/ruby/bin
 
   pre_tasks:
-    - name: update apt cache.
-      apt: update_cache=true cache_valid_time=600
-      when: ansible_os_family == 'Debian'
-
     - name: add rubygems bin dir to system-wide $PATH.
       ansible.builtin.copy:
         dest: /etc/profile.d/ruby.sh
