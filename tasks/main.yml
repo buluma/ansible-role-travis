@@ -1,12 +1,12 @@
 ---
 # tasks file for travis
 
-- name: install requirements
+- name: Install requirements
   ansible.builtin.package:
     name: "{{ travis_requirements }}"
     state: present
 
-- name: install travis
+- name: Install travis
   community.general.gem:
     name: "{{ travis_package }}"
     state: present
