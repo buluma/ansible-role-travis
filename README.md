@@ -1,4 +1,4 @@
-# [travis](#travis)
+# [Ansible role travis](#travis)
 
 Installs travis on your system.
 
