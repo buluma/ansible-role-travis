@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-travis/compare/v0.1.3...HEAD)
 
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#14](https://github.com/buluma/ansible-role-travis/issues/14)
+- Update action [\#13](https://github.com/buluma/ansible-role-travis/issues/13)
+
 **Merged pull requests:**
 
 - Bump buluma/gitlab-mirror-ci-action from 1.0.6 to 1.0.7 [\#8](https://github.com/buluma/ansible-role-travis/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
