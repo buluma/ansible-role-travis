@@ -2,9 +2,9 @@
 
 Installs travis on your system.
 
-|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-travis/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-travis/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-travis/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-travis)|[![downloads](https://img.shields.io/ansible/role/d/4863)](https://galaxy.ansible.com/buluma/travis)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/pulls/)|
+|GitHub|Version|Issues|Pull Requests|
+|------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-travis/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-travis/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -69,12 +69,12 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
+| Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
-|[buluma.buildtools](https://galaxy.ansible.com/buluma/buildtools)|[![Build Status GitHub](https://github.com/buluma/ansible-role-buildtools/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-buildtools/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-buildtools/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-buildtools)|
-|[buluma.ruby](https://galaxy.ansible.com/buluma/ruby)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ruby/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-ruby/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-ruby)|
-|[buluma.ruby_gems](https://galaxy.ansible.com/buluma/ruby_gems)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ruby_gems/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ruby_gems/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-ruby_gems/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-ruby_gems)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.buildtools](https://galaxy.ansible.com/buluma/buildtools)|[![Build Status GitHub](https://github.com/buluma/ansible-role-buildtools/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-buildtools/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-buildtools.svg)](https://github.com/shadowwalker/ansible-role-buildtools)|
+|[buluma.ruby](https://galaxy.ansible.com/buluma/ruby)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ruby/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-ruby.svg)](https://github.com/shadowwalker/ansible-role-ruby)|
+|[buluma.ruby_gems](https://galaxy.ansible.com/buluma/ruby_gems)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ruby_gems/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ruby_gems/actions)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-ruby_gems.svg)](https://github.com/shadowwalker/ansible-role-ruby_gems)|
 
 ## [Context](#context)
 
@@ -116,7 +116,6 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 [buluma](https://buluma.github.io/)
 
-Please consider [sponsoring me](https://github.com/sponsors/buluma).
 
 ### [Special Thanks](#special-thanks)
 
