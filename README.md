@@ -1,10 +1,10 @@
-# [Ansible role travis](#travis)
+# Ansible role [travis](https://galaxy.ansible.com/ui/standalone/roles/buluma/travis/documentation)
 
 Installs travis on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-travis/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-travis/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-travis/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-travis/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-travis.svg)](https://github.com/buluma/ansible-role-travis/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/travis)](https://galaxy.ansible.com/ui/standalone/roles/buluma/travis/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -110,13 +110,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-travis/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-travis/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
