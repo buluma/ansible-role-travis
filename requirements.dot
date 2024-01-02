@@ -1,0 +1,15 @@
+digraph PhiloDilemma {
+  label = "Michael Buluma" ;
+  overlap=false
+  {
+    "travis" [fillcolor=yellow style=filled penwidth=3]
+    "buluma.bootstrap" [fillcolor=green style=filled]
+    "buluma.buildtools" [fillcolor=green style=filled]
+    "buluma.ruby" [fillcolor=green style=filled]
+    "buluma.ruby_gems" [fillcolor=green style=filled]
+  }
+  "travis" -> "buluma.bootstrap"
+  "travis" -> "buluma.buildtools"
+  "travis" -> "buluma.ruby"
+  "travis" -> "buluma.ruby_gems"
+}
